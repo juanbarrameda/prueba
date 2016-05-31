@@ -10,5 +10,6 @@ package dam_ed04_actividad;
  * @author Juan
  */
 public class Empleado {
-    
+    private String nombre;  
+    private Integer numero;
 }
