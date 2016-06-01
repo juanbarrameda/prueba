@@ -14,6 +14,7 @@ public class Empleado {
     private String apellidos;  
     private String dni;
 
+    // Mensaje para comprobar los cambios a las 14:22
     public Empleado() {
     }
 
