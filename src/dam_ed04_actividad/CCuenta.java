@@ -5,8 +5,8 @@
 
 package dam_ed04_actividad;
 
-public class CCuenta {
 
+public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
@@ -23,6 +23,42 @@ public class CCuenta {
         saldo=sal;
     }
 
+    public String getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(String cuenta) {
+        this.cuenta = cuenta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+
+    public String getNombre() {
+        return nombre;
+    }
+
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+
+    public double getTipoInterés() {
+        return tipoInterés;
+    }
+
+
+    public void setTipoInterés(double tipoInterés) {
+        this.tipoInterés = tipoInterés;
+    }    
+    
     public void asignarNombre(String nom)
     {
         setNombre(nom);
@@ -62,23 +98,4 @@ public class CCuenta {
         return cuenta;
     }
 
-
-    public String getNombre() {
-        return nombre;
-    }
-
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-
-    public double getTipoInterés() {
-        return tipoInterés;
-    }
-
-
-    public void setTipoInterés(double tipoInterés) {
-        this.tipoInterés = tipoInterés;
-    }
 }
