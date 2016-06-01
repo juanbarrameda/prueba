@@ -8,12 +8,10 @@ package dam_ed04_actividad;
 
 public class CCuenta {
 
-
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
-
 
     public CCuenta()
     {
