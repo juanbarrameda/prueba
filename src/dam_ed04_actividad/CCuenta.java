@@ -5,7 +5,6 @@
 
 package dam_ed04_actividad;
 
-
 public class CCuenta {
 
     private String nombre;
